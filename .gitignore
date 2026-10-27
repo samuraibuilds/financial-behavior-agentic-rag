@@ -1,0 +1,29 @@
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated application data
+storage/
+results/*
+!results/.gitkeep
+data/*
+!data/.gitkeep
+
+# Local configuration and operating system files
+.streamlit/config.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
